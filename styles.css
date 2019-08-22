@@ -43,14 +43,18 @@ main {
 header {
     width: 50%;
     margin-left: 20%;
-    margin-top:50px;
+    margin-top:80px;
 }
 
 section {
     width: 50%;
-    margin-top:50px;
+    margin-top:80px;
+    margin-right: 20%;
     flex-direction: column;
-    justify-content: center;
+}
+
+section img,ul{
+    align-content: space-around;
 }
 
 h1 {
