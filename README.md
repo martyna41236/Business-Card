@@ -1,2 +1,2 @@
-# CV
-https://martyna41236.github.io/CV/
+# Business-Card
+https://martyna41236.github.io/Business-Card/
