@@ -38,23 +38,28 @@ body {
 
 main {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header {
+.introduction {
     width: 50%;
     margin-left: 20%;
     margin-top:80px;
 }
 
-section {
+.visual {
     width: 50%;
     margin-top:80px;
     margin-right: 20%;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-section img,ul{
-    align-content: space-around;
+.visual img,ul{
+    padding: 0;
 }
 
 h1 {
@@ -114,6 +119,10 @@ a:link {
     margin-left: -50px;
 }
 
+.btn {
+    text-align: center;
+}
+
 button {
     padding: 10px 40px;
     margin-top: 30px;
@@ -139,8 +148,9 @@ button i {
 }
 
 .social-media {
-	display: flex;
-	margin-top: 30px;;
+    display: flex;
+    align-items: center;
+	margin-top: 30px;
 }
 
 .social-media li {
